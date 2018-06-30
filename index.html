@@ -1,0 +1,65 @@
+<!--
+    Author: Blood, B.
+    Title: JavaScript Simon Game.
+    Version: Unknown
+    Type:HTML, CSS & JavaScript
+    Source: https://codepen.io/BenLBlood/pen/LGLEoJ
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <h1 class="gameName">SIMON</h1>
+                    <h2 class="gameIntro">Challenge your memory and cocentration with Simon</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <audio id="soundButtonNav" src="../assets/sound_effects/simonSound1.mp3"></audio>
+    <audio id="soundButtonMus" src="../assets/sound_effects/simonSound2.mp3"></audio>
+    <audio id="soundButtonPin" src="../assets/sound_effects/simonSound3.mp3"></audio>
+    <audio id="soundButtonTur" src="../assets/sound_effects/simonSound4.mp3"></audio>
+    <audio id="soundButtonWrong" src="../assets/sound_effects/simonIncorrectSound.mp3"></audio>
+    <div class="gameContainer noSelect">
+        <div id="buttonNav" class="fourButton"></div> <!-- #092366 Navy-->>
+        <div id="buttonMus" class="fourButton"></div> <!-- #DB9C24 Mustard-->>
+        <div id="buttonPin" class="fourButton"></div> <!-- #FF7373 Pink-->>
+        <div id="buttonTur" class="fourButton"></div> <!-- #40E0D0 Turquoise-->>
+        <div id="controlPanel">
+            <div id="controlPanelTitle">SIMON</div>
+            <div id="countBox">
+                <div id="countDisplay">
+                    <div id="displayText">--</div>
+                </div>
+                <div id="countText">COUNT</div>
+            </div>
+            <div id="startBox">
+                <div id="startButton"></div>
+                <div id="startText">START</div>
+            </div>
+            <div id="strictBox">
+                <div id="strictButton"></div>
+                <div id="strictText">STRICT</div>
+            </div>
+            <div id="powerBox">
+                <div id="onText">ON</div>
+                <div id="powerSwitch">
+                    <div id="buttonOn"></div>
+                    <div id="buttonOff"></div>
+                </div>
+                <div id="offText">OFF</div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
