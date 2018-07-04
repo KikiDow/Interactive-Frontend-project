@@ -4,7 +4,7 @@
 //Type:HTML, CSS & JavaScript
 //Source: https://codepen.io/BenLBlood/pen/LGLEoJ
 
-
+//
 var power = "off";
 var strict = "off";
 var running = false;
