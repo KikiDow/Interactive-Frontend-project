@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>SIMON SAYS</title>
 </head>
 <body>
     <header class="container-fluid">
@@ -26,11 +27,13 @@
             </div>
         </div>
     </header>
-    <audio id="soundButtonNav" src="../assets/sound_effects/simonSound1.mp3"></audio>
-    <audio id="soundButtonMus" src="../assets/sound_effects/simonSound2.mp3"></audio>
-    <audio id="soundButtonPin" src="../assets/sound_effects/simonSound3.mp3"></audio>
-    <audio id="soundButtonTur" src="../assets/sound_effects/simonSound4.mp3"></audio>
-    <audio id="soundButtonWrong" src="../assets/sound_effects/simonIncorrectSound.mp3"></audio>
+    
+    <audio id="soundbuttonNav" src="assets/sound_effects/simonSound1.mp3"></audio>
+    <audio id="soundbuttonMus" src="assets/sound_effects/simonSound2.mp3"></audio>
+    <audio id="soundbuttonPin" src="assets/sound_effects/simonSound3.mp3"></audio>
+    <audio id="soundbuttonTur" src="assets/sound_effects/simonSound4.mp3"></audio>
+    <audio id="soundbuttonWrong" src="assets/sound_effects/simonIncorrectSound.mp3"></audio>
+    
     <section class="container-fluid">
     <div class="gameContainer noSelect">
         <div id="buttonNav" class="fourButton"></div> <!-- #092366 Navy-->>
@@ -65,5 +68,7 @@
         </div>
     </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/simon.js"></script>
 </body>
 </html>
