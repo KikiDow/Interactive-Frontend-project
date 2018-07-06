@@ -1,10 +1,24 @@
-//Author: Blood, B.
-//Title: JavaScript Simon Game.
-//Version: Unknown
-//Type:HTML, CSS & JavaScript
-//Source: https://codepen.io/BenLBlood/pen/LGLEoJ
+/*
 
-//
+    Author: Blood, B. (n.d.).
+    Title: "JavaScript Simon Game"
+    Version: Unknown
+    Type: HTML, CSS & JavaScript
+    Retrieved from: https://codepen.io/BenLBlood/pen/LGLEoJ
+    
+    Author: Unknown [Root Tech], 2017, September 9.
+    Title: "How to Program a Simon Game: JavaScript Part 1" [Video file]
+    Version: Unknown
+    Type: HTML, CSS & JavaScript.
+    Retrieved from: https://www.youtube.com/watch?v=9MTR3V2XpRI
+    
+    Author: Unknown [Root Tech], 2017, September 9.
+    Title: "How to Program a Simon Game: JavaScript Part 2" [Video file]
+    Version: Unknown
+    Type: HTML, CSS & JavaScript.
+    Retrieved from: https://www.youtube.com/watch?v=iXscqYgZ7HQ
+    
+*/
 $(document).ready(function() {
   var power = "off";
   var strict = "off";
