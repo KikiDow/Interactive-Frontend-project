@@ -98,6 +98,33 @@ If this condition is met, the "matchingArrays" value is then checked. The next n
 the if-else, lines 150-178, firstly checks the "levelCount". If this is 20, the "win" method is called
 as the player has won the game. Else, control variables are reset and the game continues on line 177.
 
-NEWMEMORY description
+    The newMemory function declared on lines 190-206 creates at random the next colour/sound that is placed
+in the "memoryArray" to create the sequence played by "Simon" that the user must replicate. The temp variable 
+is set by calling the built-in "Math.random" method to generate a random number between 0 and 1. This 
+is then multiplied by 4, with 1 added to the result. The result is then entered as an argument into the 
+"Math.floor" method to remove any decimal places to produce an integer result. The result will be a random 
+number between 1 and 4. Once assigned, the "temp" variable is passed into a switch statement. Depending on the
+value passed, a short string value will be appended to the "memoryArray", creating the sequence.
+
+    The playMemory function declared on lines 208-219 is used to play the sequence held in "memoryArray".
+It begins by changing the display to show the value of the  variable "levelCount". The "tempColor" variable is then 
+assigned the short string value from the position of the "memoryArrayCounter" in the "memoryArray". The "tempColor"
+value is then appended to the id "#soundbutton" and then in conjunction with the "cloneNode" and "play" methods 
+are used to play the associated mp3 file. The "tempColor" value is then appended to the "#button" id and then 
+the "addClass" method is used to add the css "activated" class to produce the flashing effect. The "activated"
+class is then removed from the button by using the "setTimeout" and "removeClass" methods after a defined period
+of time. The "memoryArrayCounter" is then incremented so that the next sound/button in the sequence will be called.
+An if statement is then used to check whether the end of the "memoryArray" has been reached by comparing the 
+"memoryArrayCounter" to the length of the "memoryArray". If this is the case, then the "clearInterval" method is
+used to clear any timers set in the "runMemory" variable.
+
+    The "win" method is defined in lines 221-264. This changes the display if the player has met the conditions
+to win the game. A combination of alternating "addClass" and "removeClass" methods are used in conjunction with
+the "setTimeout" method to create a celebratory flashing light sequence as a reward for the user. It does so by
+adding and removing the css "activated" class. Lastly, a final nested "setTimeout" methods is defined, lines 250-263,
+to change the display, reset some of the control variables and the accumulators used in the game. This is done so that
+the user can start a new game.
+
+    
 
 
