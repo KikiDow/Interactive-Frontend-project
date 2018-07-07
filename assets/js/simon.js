@@ -20,6 +20,7 @@
     
 */
 $(document).ready(function() {
+  //Instantiating control variables and accumulators.
   var power = "off";
   var strict = "off";
   var running = false;
@@ -75,7 +76,7 @@ $(document).ready(function() {
       }
   });
 
-  //Strict Button
+  //Behaviour for Strict Button when clicked.
   $("#strictButton").on("click", function(){
       if (power == "on" && running == false){
           if(strict == "off"){
@@ -91,7 +92,7 @@ $(document).ready(function() {
       }
   });
 
-  // Start Button
+  // Behaviour for Start button when clicked.
   $("#startButton").on("click", function() {
     if (power == "on") {
       $("#startButton").css("background", "#63F42A");
@@ -111,7 +112,7 @@ $(document).ready(function() {
     }
   });
 
-  // Coloured Buttons
+  // Behaviour for Coloured Buttons when clicked.
   $("div[id*='button']").on("click", function() {
     if (power == "on" && running) {
       if (event.which == 1) {
@@ -147,7 +148,7 @@ $(document).ready(function() {
           if (userArrayCounter == memoryArrayCounter) {
             if (matchingArrays) {
               if (levelCount == 20) {
-                win();
+                win(); // Player has won so win method is called.
               }
               else {
                 userArray = [];
