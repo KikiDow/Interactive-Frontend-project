@@ -10,6 +10,9 @@ outline. This is placed under the heading "Code Logic Description".
 The application follows the project brief and presents a version of the classic
 Simon Says game developed using HTML, CSS & JavaScript.
 
+########## GitHub Repository ###################################################
+https://github.com/KikiDow/Interactive-Frontend-project
+
 ########## Files Included ######################################################
 index.html
 README.md

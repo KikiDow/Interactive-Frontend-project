@@ -41,10 +41,12 @@ body {
     background: url("../images/Brain_Image.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    /*
     display: block;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    */
 }
 
 .noSelect {
