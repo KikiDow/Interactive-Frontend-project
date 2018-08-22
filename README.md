@@ -1,51 +1,77 @@
-########## Application Purpose #################################################
+# SIMON SAYS GAME
+
 This one page frontend web application was developed as part completion of the 
 Code Institute Full Stack Web Developer course. It is the milestone project for the 
-Interactive Frontend Development stream.
+Interactive Frontend Development stream.The application follows the project brief and presents a version of the classic
+Simon Says game developed using HTML, CSS & JavaScript.
 
 This file also contains the code logic description requested in the assignment 
 outline. This is placed under the heading "Code Logic Description".
 
-########## Application Description #############################################
-The application follows the project brief and presents a version of the classic
-Simon Says game developed using HTML, CSS & JavaScript.
-
-########## GitHub Repository ###################################################
-https://github.com/KikiDow/Interactive-Frontend-project
-
-########## Files Included ######################################################
-index.html
-README.md
-style.css
-simon.js
-Brain_Image.jpeg
-simonIncorrectSound.mp3
-simonSound1.mp3
-simonSound2.mp3
-simonSound3.mp3
-simonSound4.mp3
-
-########## Design Decisions & Considerations ###################################
-1 - The application has attempted to meet all the requirements laid out in the 
+## UX
+1. The application has attempted to meet all the requirements laid out in the 
 assignment outline and design brief. No additional features were added outside of
 the design brief.
-2 - Although the original electronic version of the game was released in 1978, the 
+2. Although the original electronic version of the game was released in 1978, the 
 Developer decided to use a 1980's themed colour scheme inspired by the movie 
 "Ready Player One". This was done to challenge the my own skills and to present a 
 different design than that to the countless examples available online.
 
-########## Resources ###########################################################
-Code references have been included in the individually referenced files.
+## GitHub Repository
+The GitHub Repository for this project is located [here](https://github.com/KikiDow/Interactive-Frontend-project)
 
-The file "Brain_Image.jpeg" was retrieved from:
-    Dolgin, E. (2017). "Stimulating the Brain's emotional center enhances memory".
-    https://spectrum.ieee.org/the-human-os/biomedical/devices/stimulating-the-brains-emotional-center-enhances-memory
-    
-The files simonIncorrectSound.mp3, simonSound1.mp3, simonSound2.mp3, simonSound3.mp3, simonSound4.mp3 were retrieved from:
-    Blood, B. (n.d.). "JavaScript Simon Game".
-    https://codepen.io/BenLBlood/pen/LGLEoJ
+## Features
 
-########## Code Logic Description ##############################################
+## Tecnologies Used
+- HTML
+- CSS
+- JavaScript
+- jQuery
+
+## Files Included
+- index.html
+- README.md
+- style.css
+- simon.js
+- Brain_Image.jpeg
+- simonIncorrectSound.mp3
+- simonSound1.mp3
+- simonSound2.mp3
+- simonSound3.mp3
+- simonSound4.mp3
+
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+* The file "Brain_Image.jpeg" used as the background image was retrieved from 
+[here](https://spectrum.ieee.org/the-human-os/biomedical/devices/stimulating-the-brains-emotional-center-enhances-memory)
+* The files; simonIncorrectSound.mp3, simonSound1.mp3, simonSound2.mp3, simonSound3.mp3, simonSound4.mp3 were retrieved from
+[here](https://codepen.io/BenLBlood/pen/LGLEoJ)
+
+### Acknowledgements
+* Author: Unknown [Root Tech], 2017, September 9.
+Title: "How to Program a Simon Game: HTML" [Video file]
+Retrieved from: https://www.youtube.com/watch?v=zwKoo7VDj44
+* Author: Unknown [Root Tech], 2017, September 9.
+Title: "How to Program a Simon Game: CSS" [Video file]
+Retrieved from: https://www.youtube.com/watch?v=muPIIfjazcU
+* Author: Unknown [Root Tech], 2017, September 9.
+Title: "Speed Styling Simon Game: CSS" [Video file]
+Retrieved from: https://www.youtube.com/watch?v=fJQtc24sCJ8
+* Blood, B. (n.d.). "JavaScript Simon Game".
+https://codepen.io/BenLBlood/pen/LGLEoJ
+* Dolgin, E. (2017). "Stimulating the Brain's emotional center enhances memory".
+https://spectrum.ieee.org/the-human-os/biomedical/devices/stimulating-the-brains-emotional-center-enhances-memory
+
+
+## Code Logic Description
     The code begins by declaring and in some cases assigning values to a number of 
 key control variables and instantiating a number of accumulator variables to which 
 values will be added and referenced throughout the running of the program. Lines 24-35.
