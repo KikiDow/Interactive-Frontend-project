@@ -72,15 +72,15 @@ https://spectrum.ieee.org/the-human-os/biomedical/devices/stimulating-the-brains
 
 
 ## Code Logic Description
-    The code begins by declaring and in some cases assigning values to a number of 
+The code begins by declaring and in some cases assigning values to a number of 
 key control variables and instantiating a number of accumulator variables to which 
 values will be added and referenced throughout the running of the program. Lines 24-35.
 
-    Next, a contructor for the colour button object is defined and four instances of
+Next, a contructor for the colour button object is defined and four instances of
 this object are instantiated for each of the four different colours used in the game.
 Lines 38-47.
 
-    In lines 50-77, the behavior of the power button is defined. It begins by using
+In lines 50-77, the behavior of the power button is defined. It begins by using
 the built in JavaScript on click function to respond to the user event. Inside this
 function an if-else if structure is used to check whether the power button is currently
 set to ON or OFF. If in the OFF setting, the css function is used to change the display 
@@ -89,14 +89,14 @@ control variable are changed, plus a number of other control variables and accum
 to their original settings. The "clearInterval" method clears the timer set by the setInterval
 method inside the colour buttons event handler on lines 141 and 144.
 
-    In lines 79-93, the behaviour of the Strict button is defined. Again the on click 
+In lines 79-93, the behaviour of the Strict button is defined. Again the on click 
 function is used to respond to the user event. It first checks that the game is switched on 
 and running, as the strict button can only be selected if these two conditions are met. 
 Again an if-else if structure is used in comnbination with the built-in css function to change
 the display. This also uses the built-in addClass and removeClass function to utilise a font-awesome
 icon in the display. Finally, the "strict" control variable is changed.
     
-    The behaviour for the "Start" button is defined next. It begins by checking that the power is 
+The behaviour for the "Start" button is defined next. It begins by checking that the power is 
 set to ON. If this condition is met, the appropriate display elements are updated and all the
 variables and accumulators required to play the game are set. In line 107, "clearInterval" is 
 called to ensure that any timer set from previous games is cleared from memory. The "newMemory"
@@ -105,7 +105,7 @@ the built-in "setTimeout" method to set the "runMemory" variable once every seco
 uses the built-in "setInterval" method to call the "playMemory" method to play the sequence created 
 in from when "newMemory" was called.
 
-    The behaviour for the coloured buttons is defined next in lines 116-185. The on click function 
+The behaviour for the coloured buttons is defined next in lines 116-185. The on click function 
 is used to respond to the user event. An if statement is used to check that an instance of the game
 has been started and is running. If this condition is met, the button on the mouse pressed by the
 is checked using the jQuery built-in function "event.which", which compares the key pressed on a
@@ -127,7 +127,7 @@ If this condition is met, the "matchingArrays" value is then checked. The next n
 the if-else, lines 150-178, firstly checks the "levelCount". If this is 20, the "win" method is called
 as the player has won the game. Else, control variables are reset and the game continues on line 177.
 
-    The newMemory function declared on lines 190-206 creates at random the next colour/sound that is placed
+The newMemory function declared on lines 190-206 creates at random the next colour/sound that is placed
 in the "memoryArray" to create the sequence played by "Simon" that the user must replicate. The temp variable 
 is set by calling the built-in "Math.random" method to generate a random number between 0 and 1. This 
 is then multiplied by 4, with 1 added to the result. The result is then entered as an argument into the 
@@ -135,7 +135,7 @@ is then multiplied by 4, with 1 added to the result. The result is then entered 
 number between 1 and 4. Once assigned, the "temp" variable is passed into a switch statement. Depending on the
 value passed, a short string value will be appended to the "memoryArray", creating the sequence.
 
-    The playMemory function declared on lines 208-219 is used to play the sequence held in "memoryArray".
+The playMemory function declared on lines 208-219 is used to play the sequence held in "memoryArray".
 It begins by changing the display to show the value of the  variable "levelCount". The "tempColor" variable is then 
 assigned the short string value from the position of the "memoryArrayCounter" in the "memoryArray". The "tempColor"
 value is then appended to the id "#soundbutton" and then in conjunction with the "cloneNode" and "play" methods 
@@ -147,7 +147,7 @@ An if statement is then used to check whether the end of the "memoryArray" has b
 "memoryArrayCounter" to the length of the "memoryArray". If this is the case, then the "clearInterval" method is
 used to clear any timers set in the "runMemory" variable.
 
-    The "win" method is defined in lines 221-264. This changes the display if the player has met the conditions
+The "win" method is defined in lines 221-264. This changes the display if the player has met the conditions
 to win the game. A combination of alternating "addClass" and "removeClass" methods are used in conjunction with
 the "setTimeout" method to create a celebratory flashing light sequence as a reward for the user. It does so by
 adding and removing the css "activated" class. Lastly, a final nested "setTimeout" methods is defined, lines 250-263,
