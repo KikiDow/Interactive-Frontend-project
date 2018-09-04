@@ -15,12 +15,29 @@ the design brief.
 2. Although the original electronic version of the game was released in 1978, the 
 Developer decided to use a 1980's themed colour scheme inspired by the movie 
 "Ready Player One". This was done to challenge the my own skills and to present a 
-different design than that to the countless examples available online.
+different design than that to the numerous examples available online.
 
 ## GitHub Repository
 The GitHub Repository for this project is located [here](https://github.com/KikiDow/Interactive-Frontend-project)
 
 ## Features
+* The application contains a **Gameboard** which contains all the buttons required to
+play the game. The Gameboard contains four different coloured buttons\lights that will show
+a sequence to the user. The user must then replicate the sequence by correctly selecting the 
+buttons on the gameboard.
+* The application contains an **ON/OFF** switch. This is used to turn on the gameboard
+ and switch the other buttons onto active mode, making them available for selection by
+the user.
+* The application contains a **Count** window. This is used to indicate to the user the 
+level of the game they are currently on.
+* The application contains a **Start** button which is used to start a new game and
+resets control variables and counters.
+* The application contains a **Strict** button, which is effectively a difficulty setting option. 
+If the strict button is selected, the user must complete the game without making any 
+mistakes or progress will be lost.
+* The application contains a **Game Finish Sequence**. This sequence is presented to the 
+user if they successfully complete the game. It is intended to evoke a sense of achievement
+ and to entertain the user.
 
 ## Tecnologies Used
 - HTML
@@ -40,14 +57,24 @@ The GitHub Repository for this project is located [here](https://github.com/Kiki
 - simonSound3.mp3
 - simonSound4.mp3
 
-
 ## Testing
+* As no module for testing has yet been covered on the course, no technical tests 
+were conducted on the application.
+* A form of White Box testing was conducted by the developer using potential use 
+cases or user stories to ensure that each link in the application followed the intended path. 
+This was also done for each feature outlined in the Features section to ensure they 
+were working as intended.
+* A form of Black Box testing was done by asking both a friend and the student's 
+mentor on the course to use the application without instruction. Their feedback was 
+then used to make improvements.
 
 ## Deployment
+The application is deployed using github pages and can be accessed by clicking ["here"](LINK)
 
 ## Credits
 
 ### Content
+* All textual content was created by the Developer.
 
 ### Media
 * The file "Brain_Image.jpeg" used as the background image was retrieved from 
