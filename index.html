@@ -30,6 +30,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <meta name="viewport" content="width-device-width, initial-scale-1">
     <title>SIMON SAYS</title>
@@ -41,6 +42,19 @@
                 <div>
                     <h1 class="gameName">SIMON</h1>
                     <h2 class="gameIntro">Challenge your memory and concentration with Simon</h2>
+                </div>
+                <div id="modal1" class="modal">
+                    <h3 class="modal-header">Game Instructions</h3>
+                    <p>1. To switch on the Game Board, move the <strong>ON/OFF</strong> switch to the <strong>ON</strong> position.</p>
+                    <p>2. To begin the game, click <strong>START</strong>.</p>
+                    <p>3. <strong>SIMON</strong> will show you a sequence on the Game Board. Once it stops, you must replicate the sequence to move onto the next level.</p>
+                    <p>4. If you would like a tougher challenge, click on the <strong>STRICT</strong> button before starting a game. 
+                        With the <strong>STRICT</strong> mode selected, you will return to the <strong>LEVEL 1</strong> if you get a sequence incorrect.</p>
+                    <p>5. <strong>ENJOY !!!</strong></p>
+                    <!-- <a href="#" rel="modal:close" class="a-close">Close</a> -->
+                </div>
+                <div>
+                    <center><a href="#modal1" rel="modal:open" class="a-button">Game Instructions</a></center>
                 </div>
             </div>
         </div>
@@ -87,6 +101,8 @@
     </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script type="text/javascript" src="assets/js/simon.js"></script>
 </body>
 </html>

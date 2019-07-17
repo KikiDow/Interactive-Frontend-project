@@ -14,7 +14,7 @@ assignment outline and design brief. No additional features were added outside o
 the design brief.
 2. Although the original electronic version of the game was released in 1978, the 
 Developer decided to use a 1980's themed colour scheme inspired by the movie 
-"Ready Player One". This was done to challenge the my own skills and to present a 
+"Ready Player One". This was done to challenge my own skills and to present a 
 different design than that to the numerous examples available online.
 
 ## GitHub Repository

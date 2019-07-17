@@ -34,7 +34,9 @@
     font-family: "Audiowide", sans-serif;
     color: #40E0D0;
     text-align: center;
+    padding-bottom: 20px;
 }
+
 
 /*------------------------------------------------------Body------------------*/
 body {
@@ -270,5 +272,41 @@ body {
   font-size: 10px;
   color: black;
   font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+}
+
+/*------------------------------------------------- Modal ---------------------*/
+.modal-header {
+  font-family: "Monoton", sans-serif;
+  color: #40E0D0;
+  text-align: center;
+  color: #092366;
+  font-size: 30px;
+}
+
+.a-button {
+  background-color: #40E0D0;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Audiowide", sans-serif;
+}
+
+.a-button:hover {
+  background-color: #092366;
+  color: #FF7373; 
+  text-decoration: none;
+}
+
+.a-close {
+  text-decoration: none;
+}
+
+.a-close:hover {
+  text-decoration: none;
+}
+
+p {
   font-family: "Audiowide", sans-serif;
 }
