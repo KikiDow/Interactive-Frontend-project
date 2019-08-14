@@ -39,10 +39,14 @@
 
 
 /*------------------------------------------------------Body------------------*/
-body {
+html {
     background: url("../images/Brain_Image.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     /*
     display: block;
     transition: all .5s ease-in-out;
