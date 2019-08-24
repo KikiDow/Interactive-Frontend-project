@@ -9,7 +9,7 @@ This file also contains the code logic description requested in the assignment
 outline. This is placed under the heading "Code Logic Description".
 
 ## DEMO
-* A live demo hosted on Heroku can be found here
+* A live demo hosted on Heroku can be found ["here"](https://kikidow.github.io/Interactive-Frontend-project/)
 
 ## UX
 1. The application has attempted to meet all the requirements laid out in the 
@@ -19,9 +19,6 @@ the design brief.
 Developer decided to use a 1980's themed colour scheme inspired by the movie 
 "Ready Player One". This was done to challenge my own skills and to present a 
 different design than that to the numerous examples available online.
-
-## GitHub Repository
-The GitHub Repository for this project is located [here](https://github.com/KikiDow/Interactive-Frontend-project)
 
 ## Features
 * The application contains a **Gameboard** which contains all the buttons required to
@@ -78,7 +75,13 @@ mentor on the course to use the application without instruction. Their feedback 
 then used to make improvements.
 
 ## Deployment
-The application is deployed using github pages and can be accessed by clicking ["here"](LINK)
+This project is deployed using GitHub pages. It was deployed as follows:
+1. In the GitHub repository of the project, select the settings menu. 
+2. Scroll down to the gh-pahes section.
+3. From the source option, select the "Master Branch" and "save". For an app to deploy successfully on gh pages, the home page must be titled "index.html".
+
+* The GitHub Repository for this project is located [here](https://github.com/KikiDow/Interactive-Frontend-project)
+* The application is deployed using github pages and can be accessed by clicking ["here"](https://kikidow.github.io/Interactive-Frontend-project/)
 
 ## Credits
 
